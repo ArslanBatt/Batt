@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .dropdown {
+      width: 200px;
+      padding: 10px;
+    }
+
+    .interv{
+    width: 42px;
+    height: 16px;
+    flex-shrink: 0;
+    border: 1px solid #D6D6D6;
+    display: flex;
+    text-decoration: row ;
+    }
+    .dropdown select{
+        border: none;
+    }
+
+    .bookshelf {
+      width: 800px;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+    }
+
+    .book {
+      width: 150px;
+      height: 200px;
+      margin: 10px;
+      background-color: #dedede;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .pagination {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .page {
+      padding: 5px;
+      margin: 0 5px;
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="dropdown">
+      <!-- Здесь будет выпадающее окно для сортировки -->
+      <div class="filter-interval">
+      <select>
+        <option value="1">цена</option>
+        <label>От <input class="interv" type="text" name="min-interval" value="0"></label>
+        <label>До <input class="interv" type="text" name="max-interval" value="15000"></label>
+    </select>
+      </div>
+      <select>
+        <option value="1">Новинки</option>
+        <option value="2">Популярные</option>
+        <option value="3">Возростание цен</option>
+        <option value="3">Убывание цен</option>
+      </select>
+      <select>
+        <option value="1">Сортировка 1</option>
+        <option value="2">Сортировка 2</option>
+        <option value="3">Сортировка 3</option>
+      </select>
+      <select>
+        <option value="1">Сортировка 1</option>
+        <option value="2">Сортировка 2</option>
+        <option value="3">Сортировка 3</option>
+      </select>
+    </div>
+    <div class="bookshelf">
+      <!-- Здесь будет список книг -->
+      <div class="book">Книга 1</div>
+      <div class="book">Книга 2</div>
+      <div class="book">Книга 3</div>
+      <div class="book">Книга 4</div>
+      <div class="book">Книга 5</div>
+      <div class="book">Книга 6</div>
+      <div class="book">Книга 7</div>
+      <div class="book">Книга 8</div>
+      <div class="book">Книга 9</div>
+      <div class="book">Книга 10</div>
+      <div class="book">Книга 11</div>
+      <div class="book">Книга 12</div>
+      <div class="book">Книга 13</div>
+      <div class="book">Книга 14</div>
+      <div class="book">Книга 15</div>
+      <div class="book">Книга 16</div>
+      <div class="book">Книга 17</div>
+      <div class="book">Книга 18</div>
+      <div class="book">Книга 19</div>
+      <div class="book">Книга 20</div>
+    </div>
+  </div>
+  <div class="pagination">
+    <!-- Здесь будет нумерация страниц -->
+    <div class="page">1</div>
+    <div class="page">2</div>
+    <div class="page">3</div>
+    <div class="page">4</div>
+    <div class="page">5</div>
+  </div>
+</body>
+</html>

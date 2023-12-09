@@ -1,0 +1,99 @@
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-text{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.main-txt{
+    color: #000;
+    font-family: Cardo;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 30px 0 0 0;
+}
+.clean{
+    color: #2B2B2B;
+    font-family: Cardo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.books{
+    display: flex;
+    width: 800px;
+}
+.book-img{
+    padding: 50 25 23 104;
+}
+.books .name{
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 55px 0 0 0;
+}
+.books .author{
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 5px 0 10px 0;
+}
+.books .dicript{
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 0 0 10px 0;
+}
+.books a{
+    text-decoration: none;
+}
+.books .cont{
+    color: #4F4F4F;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.shop-line{
+    width: 799px;
+    position: relative;
+    left: 104;
+}
+.promo{
+    width: 320px;
+    height: 320px;
+    flex-shrink: 0;
+    background: rgba(217, 217, 217, 0.50);
+}
+.main-promo{
+    color: #000;
+    font-family: Cardo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.promo-line{
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.34);
+    width: 320px;
+}
+.bloks1{
+    padding: 125 0 0 166;
+}
