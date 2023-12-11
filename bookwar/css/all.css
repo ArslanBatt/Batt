@@ -30,7 +30,7 @@ top: 4;
 header div {padding: 18px 0}
 .search form {
   position: relative;
-  width: 590px;
+  width: 40%;
   margin: 0 auto;
 }
 .search form {
@@ -151,4 +151,152 @@ text-decoration: none;
   .infor,
   .app{
 padding-bottom: 10px;
+}
+
+
+.model-login {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: -60%;
+  left: 40%;
+}
+.model-gr {
+  background-color: #FFF;
+  width: 325px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 400px;
+}
+.model-login .pass{
+  width: 10%;
+  position: relative;
+  top: 46px;
+  right: 7px;
+}
+.model-login h1 {
+  text-align: center;
+  margin: 10px 0 4px 0;
+}
+.model-login h3 {
+  text-align: center;
+}
+.model-login input[type="text"],
+.model-login input[type="password"] {
+  background: #EDEDED;;
+  width: 80%;
+  padding: 12px 20px;
+  margin: 5px 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.model-login .btn {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.model-login .exit{
+  background: none;
+  border: none;
+  float: right;
+  position: relative;
+  bottom: 49px;
+  margin: 15px 0 -35px 0;
+}
+.model-login .exit{
+  border-radius: 50%;
+  background: black;
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+.model-login hr{
+  position: relative;
+  width: 364px;
+  right: 20px;
+}
+
+.x-but {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.model-reg {
+  width: 325px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: -60%;
+  left: 40%;
+  background-color: #FFF;
+}
+.model-reg .pass{
+  width: 10%;
+  position: relative;
+  top: 46px;
+  right: 7px;
+}
+.model-reg h1 {
+  text-align: center;
+  margin: 10px 0 4px 0;
+}
+.model-reg h3 {
+  text-align: center;
+}
+.model-reg input[type="text"],
+.model-reg input[type="password"] {
+  background: #EDEDED;;
+  width: 80%;
+  padding: 12px 20px;
+  margin: 5px 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.model-reg .btn {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.model-reg .exit{
+  background: none;
+  border: none;
+  float: right;
+  position: relative;
+  bottom: 49px;
+  margin: 15px 0 -35px 0;
+}
+.model-reg .exit{
+  border-radius: 50%;
+  background: black;
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+.model-reg hr{
+  position: relative;
+  width: 364px;
+  right: 20px;
+}
+
+.login {
+  text-decoration: none;
+  color: white;
 }

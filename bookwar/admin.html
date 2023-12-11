@@ -35,14 +35,15 @@
                   <li><a href="admin.html"><img src="img/header/admin.png">Админ</a></li>
                 </ul>
               </nav>
-
     </header>
     <main>
       <p class="divide">Административная панель</p>
       <div class="imgs">
-        <p class="img-text">Добавить книгу</p>
         <div class="img">
+          <div class="mains-img">
+          <p class="img-text">Добавить книгу</p>
         <img src="img/admin/add_photo.png" alt="">
+      </div>
         <div class="characts">
         <div class="charact">
           <p class="ch">название:</p>
@@ -62,21 +63,230 @@
           <option value="" class="chara">АСТ</option>
           <option value="" class="chara">URSS.ru</option>
         </select>
-        <select name="genre" id="genre" class="charas">
+        <select name="genre" id="genre" class="charas2">
           <option value="" class="chara">ужасы</option>
           <option value="" class="chara">комедия</option>
           <option value="" class="chara">драма</option>
         </select>
         </div>
         </div>
-        <div class="add_delete">
+        <div class="add_delete-price">
+          <div class="price-creat">
+            <p class="ch">Цена:</p>
+          <input type="text" class="char">
+          </div>
+          <div class="add-del">
           <img src="img/admin/add.png" alt="" class="ad_del">
           <img src="img/admin/del.png" alt="" class="ad_del">
+        </div>
+        </div>
+      </div>
+      </div>
+      <hr class="lines">
+      <div class="container">
+        <div class="dropdown">
+          <p class="mains-catalog">Каталог</p>
+          <!-- Здесь будет выпадающее окно для сортировки -->
+          <select>
+            <option value="1">Цена</option>
+          </select>
+          <div class="filter-intervals">
+            <label class="filter-interval">От <input class="interv" type="number" name="min-interval" value="0"></label>
+            <label class="filter-interval">До <input class="interv" type="number" name="max-interval" value="15000"></label>
+          </div>
+          <select>
+            <option value="1">Новинки</option>
+            <option value="2">Популярные</option>
+            <option value="3">Возростание цен</option>
+            <option value="3">Убывание цен</option>
+          </select>
+          <select>
+            <option value="1">Жанр</option>
+            <option value="2">Комедия</option>
+            <option value="3">Драма</option>
+          </select>
+          <select>
+            <option value="1">Издательство</option>
+            <option value="2">Литрес</option>
+            <option value="3">Просвищение</option>
+          </select>
+        </div>
+        <div class="bookshelf"> 
+          <hr class="book-line">
+          <div class="books">
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+        </div>
+        <div class="books">
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+        </div>
+        <div class="books">
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+        </div>
+        <div class="books">
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+        </div>
+        <div class="nums">
+          <div class="num"><a href="#">1</a></div>
+          <div class="num"><a href="#">2</a></div>
+          <div class="num"><a href="#">3</a></div>
+          <div class="num"><a href="#">...</a></div>
+          <div class="num"><a href="#">155</a></div>
         </div>
       </div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="d-flex">
+        <div class="webs">
+          <hr class="hr-footer">
+          <p class="main-web">наши  соц сети</p>
+          <a href="#" class="web">Вконтакте</a>
+          <a href="#" class="web">Однокласники</a>
+          <a href="#" class="web">Ютуб</a>
+          <a href="#" class="web">Рутуб</a>
+          <a href="#" class="web">Телеграм</a>
+          <hr class="hr-footer">
+        </div>
+        <div class="helps">
+              <hr class="hr-footer">
+              <p class="main-help">помощь</p>
+              <a href="#" class="help">тех.поддержка</a>
+              <a href="#" class="help">как сделать заказ</a>
+              <a href="#" class="help">пользовательское соглашение</a>
+              <hr class="hr-footer">
+        </div>
+        <div class="contacts">
+              <hr class="hr-footer">
+              <p class="main-infor">контактная информация</p>
+              <a href="#" class="infor">8 (800) 555-35-35</a>
+              <a href="#" class="infor">barbook@gmail.com</a>
+              <hr class="hr-footer">
+        </div>
+        <div class="apps">
+              <hr class="hr-footer">
+              <p class="main_app">Наши приложения</p>
+              <a href="#" class="app">App Store</a>
+              <a href="#" class="app">Google Play</a>
+              <hr class="hr-footer">
+        </div>
+      </div>
+    </footer>
     
 </body>
 </html>

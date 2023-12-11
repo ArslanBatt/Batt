@@ -26,7 +26,7 @@ main{
 }
 .books{
     display: flex;
-    width: 800px;
+    width: 825px;
 }
 .book-img{
     padding: 50 25 23 104;
@@ -39,6 +39,24 @@ main{
     font-weight: 400;
     line-height: normal;
     padding: 55px 0 0 0;
+}
+.books .names {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.books .names .price{
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.books .quantity{
+    display: flex;
+    align-items: baseline;
+    color: gray;
 }
 .books .author{
     color: #000;
@@ -88,12 +106,113 @@ main{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding: 12px 0 21px 17px;
 }
 .promo-line{
     stroke-width: 1px;
     stroke: rgba(0, 0, 0, 0.34);
     width: 320px;
+    margin: 17 0 0 0;
+}
+.last-book{
+    display: flex;
+    justify-content: space-between;
 }
 .bloks1{
     padding: 125 0 0 166;
+}
+.code{
+    width: 279px;
+    height: 41px;
+    flex-shrink: 0;
+    border: none;
+    position: relative; 
+    left: 20px;
+    padding: 0 0 0 10px;
+}
+.code-btn{
+    width: 70px;
+    height: 22px;
+    flex-shrink: 0;
+    background-color: #000;
+    color: #fff;
+    position: relative; 
+    right: 58px;
+}
+.codes{
+    display: flex;
+    align-items: center;
+}
+.promo-text{
+    display: flex;
+    padding: 15px 0 0 27px;
+}
+.promo-btn{
+    width: 210px;
+    height: 44px;
+    flex-shrink: 0;
+    background-color: #000;
+    color: #fff;
+    margin: 10 0 0 55;
+}
+.numbers{
+    display: flex;
+    justify-content: flex-end;
+    color: gray;
+    padding: 0 0 30px 0;
+}
+.nums a{
+    text-decoration: none;
+    color: #000;
+}
+.nums{
+    display: flex;
+    padding: 38.56px 0 13px 0;
+    justify-content: end;
+    color: gray;
+}
+.num{
+    color: #000;
+}
+footer{
+    width: 100%;
+    height: 240px;
+    background: #000;
+    color: #FFF;
+  }
+  .d-flex{
+    display: flex;
+    justify-content: center;
+    padding-top: 27px;
+  }
+  .webs,
+  .helps,
+  .contacts,
+  .apps{
+  display: grid;
+  padding: 0 10% 0 0;
+  }
+  .webs a,
+  .helps a,
+  .contacts a,
+  .apps a{
+  text-decoration: none;
+  color: white;
+  }
+  .hr-footer{
+  width: 210px;
+  height: 0;
+  }
+  .main-web,
+  .main-help,
+  .main-infor,
+  .main-app
+  {
+  padding-bottom: 5px;
+  }
+  .web,
+  .help,
+  .infor,
+  .app{
+padding-bottom: 10px;
 }

@@ -29,7 +29,7 @@
             <nav class="top-right-navigation">
                 <ul>
                   <li><a href="main.html"><img src="img/header/home.png">Главная</a></li>
-                  <li><a href="profile.html"><img src="img/header/profile.png">Профиль</a></li>
+                  <li><a href="#" id="Show-modal"><img src="img/header/profile.png">Профиль</a></li>
                   <li><a href="catalog.html"><img src="img/header/catalog.png">Каталог</a></li>
                   <li><a href="shop.html"><img src="img/header/car.png">Корзина</a></li>
                   <li><a href="admin.html"><img src="img/header/admin.png">Админ</a></li>
@@ -39,18 +39,237 @@
     </header>
     <main>
       <p class="divide">Главная/Каталог</p>
-      <div class="sorts">
-        <div class="sort"></div>
-        <div class="sort"></div>
-        <div class="sort"></div>
-        <div class="sort"></div>
+      <div class="container">
+        <div class="dropdown">
+          <!-- Здесь будет выпадающее окно для сортировки -->
+          <select>
+            <option value="1">Цена</option>
+          </select>
+          <div class="filter-intervals">
+            <label class="filter-interval">От <input class="interv" type="number" name="min-interval" value="0"></label>
+            <label class="filter-interval">До <input class="interv" type="number" name="max-interval" value="15000"></label>
+          </div>
+          <select>
+            <option value="1">Новинки</option>
+            <option value="2">Популярные</option>
+            <option value="3">Возростание цен</option>
+            <option value="3">Убывание цен</option>
+          </select>
+          <select>
+            <option value="1">Жанр</option>
+            <option value="2">Комедия</option>
+            <option value="3">Драма</option>
+          </select>
+          <select>
+            <option value="1">Издательство</option>
+            <option value="2">Литрес</option>
+            <option value="3">Просвищение</option>
+          </select>
+        </div>
+        <div class="bookshelf"> 
+          <hr class="book-line">
+          <div class="books">
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+        </div>
+        <div class="books">
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+        </div>
+        <div class="books">
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+        </div>
+        <div class="books">
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+          <div class="book">
+            <img src="img/catalog/book.png" alt="">
+            <p class="price">1250₽</p>
+            <p class="name">Благословение небожителей.<br>Том 5</p>
+            <p class="auether">Тунсю Мосян</p>
+          </div>
+        </div>
+        <div class="nums">
+          <div class="num">1</div>
+          <div class="num">2</div>
+          <div class="num">3</div>
+          <div class="num">...</div>
+          <div class="num">115</div>
+        </div>
       </div>
-      <div class="cataloge">
-        
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="d-flex">
+        <div class="webs">
+          <hr class="hr-footer">
+          <p class="main-web">наши  соц сети</p>
+          <a href="#" class="web">Вконтакте</a>
+          <a href="#" class="web">Однокласники</a>
+          <a href="#" class="web">Ютуб</a>
+          <a href="#" class="web">Рутуб</a>
+          <a href="#" class="web">Телеграм</a>
+          <hr class="hr-footer">
+        </div>
+        <div class="helps">
+              <hr class="hr-footer">
+              <p class="main-help">помощь</p>
+              <a href="#" class="help">тех.поддержка</a>
+              <a href="#" class="help">как сделать заказ</a>
+              <a href="#" class="help">пользовательское соглашение</a>
+              <hr class="hr-footer">
+        </div>
+        <div class="contacts">
+              <hr class="hr-footer">
+              <p class="main-infor">контактная информация</p>
+              <a href="#" class="infor">8 (800) 555-35-35</a>
+              <a href="#" class="infor">barbook@gmail.com</a>
+              <hr class="hr-footer">
+        </div>
+        <div class="apps">
+              <hr class="hr-footer">
+              <p class="main_app">Наши приложения</p>
+              <a href="#" class="app">App Store</a>
+              <a href="#" class="app">Google Play</a>
+              <hr class="hr-footer">
+        </div>
+      </div>
+    </footer>
+    <!-- модальные окна -->
+<div class="model-login">
+  <div class="model-gr">
+  <h1>Вход</h1><button class="exit"> <a href="../bookwar/main.html" class="x-but">X</a></button>
+  <hr>
+  <img class="pass" src="img/header/email.png"><input type="text" placeholder="Email" id="login-email">
+  <img class="pass" src="img/header/pass.png"><input type="password" placeholder="Пароль" id="login-password">
+  <a href="../bookwar/profile.html" class="login"><button class="btn" onclick="login()">Войти</button></a>
+  <hr>
+  <h3>Если нет аккаунта</h3>
+  <button class="btn" onclick="on_reg()" id="Show-modal2">Зарегистрироваться</button>
+</div>
+</div>
 
-    
+
+
+<div class="model-reg">
+  <h1>Регистрация</h1><button class="exit"> <a href="../bookwar/main.html" class="x-but">X</a></button>
+  <hr>
+  <img class="pass" src="img/header/user.png"><input type="text" placeholder="Имя пользователя" id="registration-name">
+  <img class="pass" src="img/header/pass.png"><input type="text" placeholder="Пароль" id="registration-email">
+  <img class="pass" src="img/header/email.png"><input type="password" placeholder="Email" id="registration-password">
+  <button class="btn" onclick="reg()">Зарегистрироваться</button>
+  <hr>
+  <h3>У вас уже есть аккаунт?</h3>
+  <a href="../bookwar/profile.html" class="login"><button class="btn" onclick="on_login()"> Войти</button></a>
+</div>
+    <!--srcipt-->
+<script src="js/script.js"></script>
 </body>
 </html>
