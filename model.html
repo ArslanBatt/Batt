@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .model {
+      width: 325px;
+      margin: 0 auto;
+      padding: 0 20px 0 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .model .pass{
+      width: 10%;
+      position: relative;
+      top: 46px;
+      right: 7px;
+    }
+    .model h1 {
+      text-align: center;
+      margin: 10px 0 4px 0;
+    }
+    .model h3 {
+      text-align: center;
+    }
+    .model input[type="text"],
+    .model input[type="password"] {
+      background: #EDEDED;;
+      width: 80%;
+      padding: 12px 20px;
+      margin: 5px 30px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    .model .btn {
+      background-color: black;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    .model .exit{
+      background: none;
+      border: none;
+      float: right;
+      position: relative;
+      bottom: 49px;
+      margin: 15px 0 -35px 0;
+    }
+    .model .exit{
+      border-radius: 50%;
+      background: black;
+      color: white;
+      width: 30px;
+      height: 30px;
+    }
+    .model hr{
+      position: relative;
+      width: 364px;
+      right: 20px;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="model registration">
+    <h1>Регистрация</h1><button class="exit">X</button>
+    <hr>
+    <img class="pass" src="img/header/user.png"><input type="text" placeholder="Имя пользователя" id="registration-name">
+    <img class="pass" src="img/header/pass.png"><input type="text" placeholder="Пароль" id="registration-email">
+    <img class="pass" src="img/header/email.png"><input type="password" placeholder="Email" id="registration-password">
+    <button class="btn" onclick="reg()">Зарегистрироваться</button>
+    <hr>
+    <h3>У вас уже есть аккаунт?</h3>
+    <button class="btn" onclick="on_login()">Войти</button>
+  </div>
+  
+  <div class="model login">
+    <h1>Вход</h1><button class="exit">X</button>
+    <hr>
+    <img class="pass" src="img/header/email.png"><input type="text" placeholder="Email" id="login-email">
+    <img class="pass" src="img/header/pass.png"><input type="password" placeholder="Пароль" id="login-password">
+    <button class="btn" onclick="login()">Войти</button>
+    <hr>
+    <h3>Если нет аккаунта</h3>
+    <button class="btn" onclick="on_reg()">Зарегистрироваться</button>
+  </div>
+  
+  <script>
+  </script>
+</body>
+</html>

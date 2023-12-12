@@ -174,7 +174,6 @@ header div {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        padding: 0 0 10px 0;
         }
         .price{
           text-align: justify;
@@ -237,6 +236,7 @@ header div {
         justify-content: center;
         padding-left: 80px;
       }
+
       .block-book{
         padding: 70px;
       }

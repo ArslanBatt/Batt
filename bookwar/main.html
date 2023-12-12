@@ -29,7 +29,7 @@
       <nav class="top-right-navigation">
         <ul>
           <li><a href="main.html"><img src="img/header/home.png">Главная</a></li>
-          <li><a href="#" id="Show-modal"><img src="img/header/profile.png">Профиль</a></li>
+          <li><a href="profile.html"><img src="img/header/profile.png">Профиль</a></li>
           <li><a href="catalog.html"><img src="img/header/catalog.png">Каталог</a></li>
           <li><a href="shop.html"><img src="img/header/car.png">Корзина</a></li>
           <li><a href="admin.html"><img src="img/header/admin.png">Админ</a></li>
@@ -156,34 +156,6 @@
     </div>
   </div>
 </footer>
-
-<!-- модальные окна -->
-<div class="model-login">
-  <div class="model-gr">
-  <h1>Вход</h1><button class="exit"> <a href="../bookwar/main.html" class="x-but">X</a></button>
-  <hr>
-  <img class="pass" src="img/header/email.png"><input type="text" placeholder="Email" id="login-email">
-  <img class="pass" src="img/header/pass.png"><input type="password" placeholder="Пароль" id="login-password">
-  <a href="../bookwar/profile.html" class="login"><button class="btn" onclick="login()">Войти</button></a>
-  <hr>
-  <h3>Если нет аккаунта</h3>
-  <button class="btn" onclick="on_reg()" id="Show-modal2">Зарегистрироваться</button>
-</div>
-</div>
-
-
-
-<div class="model-reg">
-  <h1>Регистрация</h1><button class="exit"> <a href="../bookwar/main.html" class="x-but">X</a></button>
-  <hr>
-  <img class="pass" src="img/header/user.png"><input type="text" placeholder="Имя пользователя" id="registration-name">
-  <img class="pass" src="img/header/pass.png"><input type="text" placeholder="Пароль" id="registration-email">
-  <img class="pass" src="img/header/email.png"><input type="password" placeholder="Email" id="registration-password">
-  <button class="btn" onclick="reg()">Зарегистрироваться</button>
-  <hr>
-  <h3>У вас уже есть аккаунт?</h3>
-  <a href="../bookwar/profile.html" class="login"><button class="btn" onclick="on_login()"> Войти</button></a>
-</div>
 
 <!--srcipt-->
 <script src="js/script.js"></script>

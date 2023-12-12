@@ -1,0 +1,232 @@
+.lines{
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 124px;
+}
+.img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img-text{
+    color: #000;
+    font-family: Cardo;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ch{
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.char{
+    width: 431px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.characts{
+    position: relative;
+    right: 140px;
+}
+.mains-catalog{
+    display: flex;
+    color: #000;
+    text-align: center;
+    font-family: Cardo;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    bottom: 50px;
+}
+.charas{
+    width: 168px;
+    height: 24px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+}
+.charas2{
+    width: 100px;
+    height: 24px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+}
+.name-charas{
+    display: flex;
+    justify-content: space-between;
+}
+.genres{
+    display: flex;
+    justify-content: space-between;
+}
+.add_delete-price{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 320px;
+}
+.add_delete-price .char{
+    width: 73px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .dropdown {
+    width: 200px;
+    padding: 10px;
+  }
+  .interv{
+  width: 42px;
+  height: 16px;
+  flex-shrink: 0;
+  border: 1px solid #D6D6D6;
+  display: flex;
+  text-decoration: row ;
+  }
+  .dropdown select{
+      border: none;
+      display: flex;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .page {
+    padding: 5px;
+    margin: 0 5px;
+    background-color: #f0f0f0;
+  }
+.filter-intervals{
+  display: flex;
+}
+.filter-interval{
+  display: flex;
+}
+.num a{
+    text-decoration: none;
+    color: gray;
+}
+.num a:hover{
+    text-decoration: none;
+    color: black;
+}
+.books{
+    display: flex;
+    padding: 0 0 14 37px;
+}
+.book{
+    padding: 10px;
+}
+.book img:hover{
+    width: 120px;
+}
+.price{
+    width: 62.765px;
+    height: 15.15px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 5px;
+}
+.name{
+    width: 164.488px;
+    height: 19.479px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 5px;
+}
+.auether{
+    width: 72.144px;
+    height: 11.543px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 5px;
+}
+.nums{
+    display: flex;
+    padding: 38.56px 0 13px 0;
+    justify-content: end;
+}
+.book-line{
+    width: 120%;
+    margin: 0 0 14px 0;
+}
+footer{
+    width: 100%;
+    height: 240px;
+    background: #000;
+    color: #FFF;
+  }
+  .d-flex{
+    display: flex;
+    justify-content: center;
+    padding-top: 27px;
+  }
+  .webs,
+  .helps,
+  .contacts,
+  .apps{
+  display: grid;
+  padding: 0 10% 0 0;
+  }
+  .webs a,
+  .helps a,
+  .contacts a,
+  .apps a{
+  text-decoration: none;
+  color: white;
+  }
+  .hr-footer{
+  width: 210px;
+  height: 0;
+  }
+  .main-web,
+  .main-help,
+  .main-infor,
+  .main-app
+  {
+  padding-bottom: 5px;
+  }
+  .web,
+  .help,
+  .infor,
+  .app{
+padding-bottom: 10px;
+}
+
+.redacts{
+    display: flex;
+    justify-content: space-between;
+}
+.redacts img{
+    width: 11px;
+}
+.redacts img:hover{
+    width: 11px;
+}

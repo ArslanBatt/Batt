@@ -2,7 +2,10 @@
 <html>
 <head>
   <style>
-    .model {
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
       width: 325px;
       margin: 0 auto;
       padding: 0 20px 0 20px;
@@ -10,21 +13,21 @@
       border-radius: 5px;
       margin-bottom: 20px;
     }
-    .model .pass{
+    .container .pass{
       width: 10%;
       position: relative;
       top: 46px;
       right: 7px;
     }
-    .model h1 {
+    .container h1 {
       text-align: center;
       margin: 10px 0 4px 0;
     }
-    .model h3 {
+    .container h3 {
       text-align: center;
     }
-    .model input[type="text"],
-    .model input[type="password"] {
+    .container input[type="text"],
+    .container input[type="password"] {
       background: #EDEDED;;
       width: 80%;
       padding: 12px 20px;
@@ -33,7 +36,7 @@
       border: 1px solid #ccc;
       box-sizing: border-box;
     }
-    .model .btn {
+    .container .btn {
       background-color: black;
       color: white;
       padding: 14px 20px;
@@ -42,7 +45,7 @@
       cursor: pointer;
       width: 100%;
     }
-    .model .exit{
+    .container .exit{
       background: none;
       border: none;
       float: right;
@@ -50,14 +53,14 @@
       bottom: 49px;
       margin: 15px 0 -35px 0;
     }
-    .model .exit{
+    .container .exit{
       border-radius: 50%;
       background: black;
       color: white;
       width: 30px;
       height: 30px;
     }
-    .model hr{
+    hr{
       position: relative;
       width: 364px;
       right: 20px;
@@ -66,7 +69,7 @@
 </head>
 <body>
   
-  <div class="model registration">
+  <div class="container registration">
     <h1>Регистрация</h1><button class="exit">X</button>
     <hr>
     <img class="pass" src="img/header/user.png"><input type="text" placeholder="Имя пользователя" id="registration-name">
@@ -78,7 +81,7 @@
     <button class="btn" onclick="on_login()">Войти</button>
   </div>
   
-  <div class="model login">
+  <div class="container login">
     <h1>Вход</h1><button class="exit">X</button>
     <hr>
     <img class="pass" src="img/header/email.png"><input type="text" placeholder="Email" id="login-email">

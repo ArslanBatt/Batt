@@ -1,0 +1,253 @@
+<html>
+<head>
+
+    <!-- Cardo -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+
+<!-- Comforta -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/all.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <title>Главная</title>
+</head>
+<body>
+<!--header-->
+<header>
+  <p>BOOKWAR</p>
+    <div class="search">
+      <form>
+        <input type="text" placeholder="Искать здесь...">
+        <button type="submit"><img src="img/header/search.png"></button>
+      </form>
+    </div>
+      <nav class="top-right-navigation">
+        <ul>
+          <li><a href="main.html"><img src="img/header/home.png">Главная</a></li>
+          <li><a href="#" id="Show-modal"><img src="img/header/profile.png">Профиль</a></li>
+          <li><a href="catalog.html"><img src="img/header/catalog.png">Каталог</a></li>
+          <li><a href="shop.html"><img src="img/header/car.png">Корзина</a></li>
+          <li><a href="admin.html"><img src="img/header/admin.png">Админ</a></li>
+        </ul>
+      </nav>
+</header>
+<!--main-->
+<main>
+  <div class="slideshow-container" style="display: flex;">
+    <a class="prev" onclick="plusSlides(-1)"><img src="img/main/arrowlf.png"></a>
+  <div class="mySlides">
+    <img src="img/main/slide1.png">
+  </div>
+  <div class="mySlides">
+    <img src="img/main/slide2.png" >
+  </div>
+  <div class="mySlides">
+    <img src="img/main/slide3.png">
+  </div>
+  <div class="mySlides">
+    <img src="img/main/slide4.png">
+  </div>
+    <a class="next" onclick="plusSlides(1)"><img src="img/main/arrowrht.png"></a>
+  </div>
+  <div class="content-book">
+        <p class="main-text">ТОП НЕДЕЛИ</p>
+        <div class="content-block">
+        <div class="block-book">
+        <a href="book.html"><img src="img/main/book1.png"></a>
+        <p class="price">1 250₽</p>
+        <p class="book">Благословение небожителей. <br> Том 5</p>
+        <div class="stars">
+        <p class="auther">Тунсю Мосян</p>
+        <img class="star" src="img/main/star.png" alt="">
+      </div>
+      </div>
+      <div class="block-book">
+        <a href="book.html"><img src="img/main/book2.png"></a>
+        <p class="price">1 250₽</p>
+        <p class="book"> Идеальный хищник. <br> Вирусы против бактерий.</p>
+        <div class="stars">
+        <p class="auther">Стратди Стефани, <br> Паттерсон Том</p>
+        <img class="star" src="img/main/star.png" alt="">
+        </div>
+      </div>
+      <div class="block-book">
+        <a href="book.html"><img src="img/main/book3.png"></a>
+        <p class="price">1 250₽</p>
+        <p class="book"> И все-таки <br> Черепаха Движется.</p>
+        <div class="stars">
+        <p class="auther">Пратчетт Терри, <br> Бриггс Стивен</p>
+        <img class="star" src="img/main/star.png" alt="">
+        </div>
+      </div>
+      <div class="block-book">
+        <a href="book.html"><img src="img/main/book4.png"></a>
+        <p class="price">1 250₽</p>
+        <p class="book">Почти взрослый бизнес. <br> 10 шагов к своему делу</p>
+        <div class="stars">
+        <p class="auther">Булавкина Людмила</p>
+        <img class="star" src="img/main/star.png" alt="">
+      </div>
+      </div>
+      </div>
+      <a href="catalog.html" class="btn-catalog">ВЕСЬ КАТАЛОГ</a>
+  </div>
+  <hr class="hrs">
+  <div class="new-book">
+        <p class="new-text">НОВИНКИ</p>
+      <div class="arrows">
+        <img src="img/main/arrowlf.png" onclick="plusBook(1)">
+        <img src="img/main/arrowrht.png" onclick="plusBook(0)">
+      </div>
+        <div class="content-block1" id="Showbook">
+        <div class="block-book">
+          <a href="book.html"><img src="img/main/book1.png"></a>
+        <p class="price">1 250₽</p>
+        <p class="book">Благословение небожителей. <br> Том 5</p>
+        <div class="stars">
+          <p class="auther">Тунсю Мосян</p>
+          <img class="star" src="img/main/star.png" alt="">
+        </div>
+      </div>
+      <div class="block-book">
+        <a href="book.html"><img src="img/main/book1.png"></a>
+        <p class="price">1 250₽</p>
+        <p class="book">Благословение небожителей.<br> Том 5</p>
+        <div class="stars">
+          <p class="auther">Тунсю Мосян</p>
+          <img class="star" src="img/main/star.png" alt="">
+        </div>
+      </div>
+      <div class="block-book">
+        <a href="book.html"><img src="img/main/book1.png"></a>
+        <p class="price">1 250₽</p>
+        <p class="book">Благословение небожителей.<br> Том 5</p>
+        <div class="stars">
+          <p class="auther">Тунсю Мосян</p>
+          <img class="star" src="img/main/star.png" alt="">
+        </div>
+      </div>
+      <div class="block-book">
+        <a href="book.html"><img src="img/main/book1.png"></a>
+        <p class="price">1 250₽</p>
+        <p class="book">Благословение небожителей.<br> Том 5</p>
+        <div class="stars">
+          <p class="auther">Тунсю Мосян</p>
+          <img class="star" src="img/main/star.png" alt="">
+        </div>
+      </div>
+      </div>
+      <div class="content-block2" id="Showbook">
+        <div class="block-book">
+          <a href="book.html"><img src="img/main/book4.png"></a>
+          <p class="price">1 250₽</p>
+          <p class="book">Почти взрослый бизнес. <br> 10 шагов к своему делу</p>
+          <div class="stars">
+          <p class="auther">Булавкина Людмила</p>
+          <img class="star" src="img/main/star.png" alt="">
+        </div>
+        </div>
+        <div class="block-book">
+          <a href="book.html"><img src="img/main/book4.png"></a>
+          <p class="price">1 250₽</p>
+          <p class="book">Почти взрослый бизнес. <br> 10 шагов к своему делу</p>
+          <div class="stars">
+          <p class="auther">Булавкина Людмила</p>
+          <img class="star" src="img/main/star.png" alt="">
+        </div>
+        </div>
+        <div class="block-book">
+          <a href="book.html"><img src="img/main/book4.png"></a>
+          <p class="price">1 250₽</p>
+          <p class="book">Почти взрослый бизнес. <br> 10 шагов к своему делу</p>
+          <div class="stars">
+          <p class="auther">Булавкина Людмила</p>
+          <img class="star" src="img/main/star.png" alt="">
+        </div>
+        </div>
+        <div class="block-book">
+          <a href="book.html"><img src="img/main/book4.png"></a>
+          <p class="price">1 250₽</p>
+          <p class="book">Почти взрослый бизнес. <br> 10 шагов к своему делу</p>
+          <div class="stars">
+          <p class="auther">Булавкина Людмила</p>
+          <img class="star" src="img/main/star.png" alt="">
+        </div>
+        </div>
+      </div> 
+  </div>
+</main>
+<!--footer-->
+<footer>
+  <div class="d-flex">
+    <div class="webs">
+      <hr class="hr-footer">
+      <p class="main-web">наши  соц сети</p>
+      <a href="#" class="web">Вконтакте</a>
+      <a href="#" class="web">Однокласники</a>
+      <a href="#" class="web">Ютуб</a>
+      <a href="#" class="web">Рутуб</a>
+      <a href="#" class="web">Телеграм</a>
+      <hr class="hr-footer">
+    </div>
+    <div class="helps">
+          <hr class="hr-footer">
+          <p class="main-help">помощь</p>
+          <a href="#" class="help">тех.поддержка</a>
+          <a href="#" class="help">как сделать заказ</a>
+          <a href="#" class="help">пользовательское соглашение</a>
+          <hr class="hr-footer">
+    </div>
+    <div class="contacts">
+          <hr class="hr-footer">
+          <p class="main-infor">контактная информация</p>
+          <a href="#" class="infor">8 (800) 555-35-35</a>
+          <a href="#" class="infor">barbook@gmail.com</a>
+          <hr class="hr-footer">
+    </div>
+    <div class="apps">
+          <hr class="hr-footer">
+          <p class="main_app">Наши приложения</p>
+          <a href="#" class="app">App Store</a>
+          <a href="#" class="app">Google Play</a>
+          <hr class="hr-footer">
+    </div>
+  </div>
+</footer>
+
+<!-- модальные окна -->
+<div class="model-login">
+  <div class="model-gr">
+  <h1>Вход</h1><button class="exit"> <a href="../bookwar/main.html" class="x-but">X</a></button>
+  <hr>
+  <img class="pass" src="img/header/email.png"><input type="text" placeholder="Email" id="login-email">
+  <img class="pass" src="img/header/pass.png"><input type="password" placeholder="Пароль" id="login-password">
+  <a href="../bookwar/profile.html" class="login"><button class="btn" onclick="login()">Войти</button></a>
+  <hr>
+  <h3>Если нет аккаунта</h3>
+  <button class="btn" onclick="on_reg()" id="Show-modal2">Зарегистрироваться</button>
+</div>
+</div>
+
+
+
+<div class="model-reg">
+  <h1>Регистрация</h1><button class="exit"> <a href="../bookwar/main.html" class="x-but">X</a></button>
+  <hr>
+  <img class="pass" src="img/header/user.png"><input type="text" placeholder="Имя пользователя" id="registration-name">
+  <img class="pass" src="img/header/pass.png"><input type="text" placeholder="Пароль" id="registration-email">
+  <img class="pass" src="img/header/email.png"><input type="password" placeholder="Email" id="registration-password">
+  <button class="btn" onclick="reg()">Зарегистрироваться</button>
+  <hr>
+  <h3>У вас уже есть аккаунт?</h3>
+  <a href="../bookwar/profile.html" class="login"><button class="btn" onclick="on_login()"> Войти</button></a>
+</div>
+
+<!--srcipt-->
+<script src="js/script.js"></script>
+</body>
+</html>

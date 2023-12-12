@@ -1,0 +1,198 @@
+.text-photo{
+    color: #000;
+    font-family: Cardo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 50px;
+}
+.img-books{
+    padding: 27 0 17px 129;
+}
+.img-book{
+    padding-left: 129px;
+}
+.photos-book{
+    display: flex;
+}
+.dispr-books{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-text-discript{
+    color: #000;
+    font-family: Cardo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 27px;
+}
+.text-discript{
+    color: #626262;
+    font-family: Cardo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+.discript{
+    width: 680px;
+}
+.discript a{
+    text-decoration: none;
+}
+.to_be{
+    color: #2357BC;
+    text-align: center;
+    font-family: Cardo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.prop-texts{
+    color: #000;
+    font-family: Cardo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 27px;
+}
+.props-text{
+    color: #000;
+    font-family: Cardo;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.pricees{
+    display: flex;
+}
+.txts-price{
+    color: #000;
+    font-family: Cardo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.txt-price{
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.favors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 40px;
+    width: 290px;
+}
+.favors img:hover{
+    background-image: url(../img/main/blm-star.png);
+}
+.favro-btn{
+    border: 1px solid #B1B1B1;
+    background: #000;
+    color: white;
+    padding: 5px 40px 5px 40px;
+}
+.props{
+    display: flex;
+}
+.props-text{
+    padding: 0 40px 20px 0;
+}
+.products{
+    width: 680px;
+    padding: 75px 0 0 140px;
+}
+.similars{
+    color: #000;
+    text-align: center;
+    font-family: Cardo;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.content-book{
+    text-align: -webkit-center;
+  }
+  .content-block{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .block-book{
+    padding: 30px 70px;
+  }
+  .block-book img{
+    padding: 20px 50px 15px 0;
+  }
+  .block-book img:hover{
+    width: 178px;
+    height: 269px;
+    flex-shrink: 0;
+  }
+  .content-book .main-text {
+    width: 466px;
+  height: 0;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Comfortaa;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .price{
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+    width: 87px;
+  height: 25px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Comfortaa;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .book{
+    width: 228px;
+  height: 30px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: justify;
+  }
+  .auther{
+    color: #000;
+  text-align: justify;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  }
+  .arrows{
+    float: right;
+    position: relative;
+    right: 58px;
+  }
